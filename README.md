@@ -4,3 +4,14 @@ Este projeto demonstra **Testes de Integração** no Spring Boot usando **JPA**,
 São abordados testes de repositórios e testes de endpoints REST.
 
 ---
+
+## 🛠 Tecnologias Utilizadas
+- Java 21
+- Spring Boot 3
+- Spring Data JPA
+- H2 Database
+- JUnit 5
+- Spring Boot Test
+
+---
+
