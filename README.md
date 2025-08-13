@@ -38,5 +38,22 @@ spring-integration-testing-demo/
 
 ```
 
+---
+
+## 🔍 Fluxo de Execução dos Testes
+
+```mermaid
+
+flowchart TD
+    A[Início do Teste] --> B[Spring Boot Carrega o Contexto de Teste]
+    B --> C[Teste de Repositório com @DataJpaTest]
+    C -->|Insere dados no H2| D[Valida dados com Assertions]
+    B --> E[Teste de Controlador com @SpringBootTest]
+    E -->|Chama endpoints com TestRestTemplate| F[Valida resposta HTTP e dados]
+    D --> G[Fim do Teste]
+    F --> G
+
+```
+
 
 
