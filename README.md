@@ -15,3 +15,5 @@ São abordados testes de repositórios e testes de endpoints REST.
 
 ---
 
+## 📂 Estrutura do Projeto
+
